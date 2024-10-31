@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi!, I'm Soliver Pierre</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+
+
+    
+        
+        
+        .grid-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .item {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        p {
+            color: white;
+            
+        }
+
+        @media (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 900px) {
+            .grid-container {
+                grid-template-columns: repeat(2 1fr);
+            }
+        }
+
+        
+    </style>
+</head>
+
+<body>
+     <!--HTML Video Tag for local video files-->
+     <video autoplay muted loop class="fullscreen-video">
+        <source src="../video.html/DevCm.mp4" type="video/mp4">
+    </video>
+
+   
+    <header>
+        <h1>Soliver Pierre</h1>
+        <nav>
+            
+            <a href="./index.html">Home</a>
+            <a href="./resume.html">Resume</a>
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact</a>
+
+        </nav>
+    </header>
+    <div class="card">
+        
+        <h3>
+            Soliver Pierre
+        </h3>
+        
+        <p> 
+            I’m a dedicated professional with a strong academic foundation,holding four degrees in economics
+            I have recently dealt into Software development.
+        </p>
+        
+    </div>
+    <footer>
+        
+    </footer>
+    <div class="">
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+       
+    </div>
+   
+</body>
+
+</html>
