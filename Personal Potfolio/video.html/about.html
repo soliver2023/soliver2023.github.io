@@ -8,8 +8,18 @@
     <link rel="stylesheet" href="../css/style.css">
     <style>
         .text-image-container {
-            text-wrap: wrap;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 30px;
 
+        }
+        .text-image-container img {
+            max-width: 300px;
+            height: auto;
+        }
+        .text-image-container p {
+            margin: 10;
         }
         
     </style>
@@ -28,8 +38,8 @@
     
 
 
-    <div style="display: flex; align-items: center;">
-        <img src="../OIP.jpg" alt="Description" style="max-width: 100px; margin-right: 40px;">
+    <div class="text-image-container">
+        <img src="../images/soso.jpg" alt="Description">
         <p> 
             I’m a dedicated professional with a strong academic foundation, holding four degrees in economics.
             My journey has provided me with a comprehensive understanding of financial systems analysis and a passion
